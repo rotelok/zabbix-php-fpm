@@ -163,6 +163,3 @@ fi
 
 echo "$value"
 exit $rval
-
-#
-# end zapache
