@@ -114,7 +114,7 @@ case "${CASE_VALUE}" in
 	value="`awk '/^slow requests:/ {print $3}' < \"${cache}\"`"
 	rval=${?};;
 'maxChildren')
-	value="`awk '/^max children reached:/ {print $3}' < \"${cache}\"`"
+	value="`awk '/^max children reached:/ {print $4}' < \"${cache}\"`"
 	rval=${?};;
 'maxActive')
 	value="`awk '/^max active processes:/ {print $4}' < \"${cache}\"`"
