@@ -1,0 +1,20 @@
+#
+#Example file, drop it into your zabbix.agent.d folder and copy the corresponding
+#shell script to the correct path
+#
+UserParameter=php-fpm.pool,/usr/local/bin/zabbix_php-fpm_monitor-cgi.sh pool
+UserParameter=php-fpm.processManager,/usr/local/bin/zabbix_php-fpm_monitor-cgi.sh processManager
+UserParameter=php-fpm.startTime,/usr/local/bin/zabbix_php-fpm_monitor-cgi.sh startTime
+UserParameter=php-fpm.upTime,/usr/local/bin/zabbix_php-fpm_monitor-cgi.sh upTime
+UserParameter=php-fpm.acceptedConnections,/usr/local/bin/zabbix_php-fpm_monitor-cgi.sh acceptedConnections
+UserParameter=php-fpm.queue,/usr/local/bin/zabbix_php-fpm_monitor-cgi.sh queue
+UserParameter=php-fpm.maxQueue,/usr/local/bin/zabbix_php-fpm_monitor-cgi.sh maxQueue
+UserParameter=php-fpm.queueLenght,/usr/local/bin/zabbix_php-fpm_monitor-cgi.sh queueLenght
+UserParameter=php-fpm.idle,/usr/local/bin/zabbix_php-fpm_monitor-cgi.sh idle
+UserParameter=php-fpm.active,/usr/local/bin/zabbix_php-fpm_monitor-cgi.sh active
+UserParameter=php-fpm.total,/usr/local/bin/zabbix_php-fpm_monitor-cgi.sh total
+UserParameter=php-fpm.maxActive,/usr/local/bin/zabbix_php-fpm_monitor-cgi.sh maxActive
+UserParameter=php-fpm.maxChildren,/usr/local/bin/zabbix_php-fpm_monitor-cgi.sh maxChildren
+UserParameter=php-fpm.slowRequests,/usr/local/bin/zabbix_php-fpm_monitor-cgi.sh slowRequests
+UserParameter=php-fpm.phpVersion,/usr/local/bin/zabbix_php-fpm_monitor-cgi.sh phpVersion
+UserParameter=php-fpm.monitorVersion,/usr/local/bin/zabbix_php-fpm_monitor-cgi.sh version
